@@ -20,7 +20,7 @@ namespace SPSVI_01_Exercise
         private void button1_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Has press 'Message button'");
-            if (MessageBox.Show("Message Box", "opened?", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK){
+            if (MessageBox.Show("SPDVI first exercise with winforms", "Message Box", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK){
                 Console.WriteLine("Has press 'OK button'");
             } else
             {
