@@ -19,7 +19,13 @@ namespace SPSVI_01_Exercise
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello i'm Fran Gomez in SPDVI 2020, this is my first winforms UI for the module.");
+            Console.WriteLine("Has press 'Message button'");
+            if (MessageBox.Show("Message Box", "opened?", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK){
+                Console.WriteLine("Has press 'OK button'");
+            } else
+            {
+                Console.WriteLine("Has press 'Cancel button'");
+            }
         }
     }
 }
